@@ -27,7 +27,7 @@ refer:
 
 ### 基于编辑距离的语句相似度计算
 - 原理 （在这里提供了一种新方法，不是基于字，而是基于词和知网以及同义词词林来做）：
-    - ![editDistance](editDistance.png)
+    - ![editDistance](./img/editDistance.png)
 
 ### 效果对比
 - ![compare](./img/compare.png)
