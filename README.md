@@ -4,4 +4,4 @@
 
 ## Outline
 - Frequently asked questions
-    - [Question similarity](./frequently_asked_questions/question_similarity.md)
+    - [Question similarity](./frequently_asked_questions/question_similarity/question_similarity.md)
