@@ -1,6 +1,6 @@
-# A survey of query understanding (“查询理解”调研)
+# A survey of spelling correction (“拼写纠错”调研)
 
-通过对需求的分析，我将其判定为属于“查询理解”方向的问题，以下是对其的调研资料。
+拼写纠错属于“查询理解”方向的问题。
 
 - 定义 (refer: https://en.wikipedia.org/wiki/Query_understanding)  
     查询理解通常是搜索引擎中重要的的一步，目的是正确地提取出用户查询中的语义，优化用户的查询体验，随着智能 QA (Question answering) 系统的出现，它也成为各个 QA 系统的核心，诸如 Amazon Alexa, Apple's Siri 等等。
@@ -11,7 +11,7 @@ refer:
 - http://www.infoq.com/cn/articles/user-search-intention-recognition#
 
 
-## 相关技术
+## 查询理解相关技术
 - 拼写纠错
 - 查询建议
 - 查询重写（也有人将拼写纠错划入查询重写）
