@@ -90,11 +90,11 @@ P(s) = P(w1) * P(w2 | w1) * P(w3 | w2) * ...... * P(wn | wn-1)
 ......  
 平时最常用的为 2-gram 模型。下面用一个例子展示一下它的具体计算：  
 对于一个数据集，假设 count（wi）统计如下（总共 8493 个单词）：  
-![word_num](./word_num.png)  
+![word_num](./img/word_num.png)  
 而 count（wi, wi-1）统计如下：  
-![word_num](./word_num2.png)  
+![word_num](./img/word_num2.png)  
 则 2-gram 概率矩阵计算如下：  
-![word_fre](./word_fre.png)  
+![word_fre](./img/word_fre.png)  
 句子 “I want to eat Chinese food” 成立的概率为：  
 P(I want to eat Chinese food) = P(I) * P(want|I) * P(to|want) * P(eat|to) * P(Chinese|eat) * P(food|Chinese)
  = （2533/8493) * 0.33 * 0.66 * 0.28 * 0.021 * 0.52。
