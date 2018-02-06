@@ -14,23 +14,23 @@ refer:
 
 ### 基于向量空间模型的 tf-idf 方法
 - 原理：  
-    - ![tf-idf](tf-idf.png)
+    - ![tf-idf](./img/tf-idf.png)
 
 
 ### 基于语义依存的语句相似度计算
 - 原理：
-    - ![yuyiyicun](yuyiyicun.png)
+    - ![yuyiyicun](./img/yuyiyicun.png)
 
 ### 基于语义距离的语句相似度计算
 - 原理：
-    - ![yuyijuli](yuyijuli.png)
+    - ![yuyijuli](./img/yuyijuli.png)
 
 ### 基于编辑距离的语句相似度计算
 - 原理 （在这里提供了一种新方法，不是基于字，而是基于词和知网以及同义词词林来做）：
     - ![editDistance](editDistance.png)
 
 ### 效果对比
-- ![compare](compare.png)
+- ![compare](./img/compare.png)
 
 ---
 以上四种办法是传统的，对于普通的陈述句计算相似度的常用方法。在这个 survey 的主要参考论文中（FAQ问答系统中的问句相似度研究)，作者提出了两种针对问句计算相似度的算法：
@@ -59,7 +59,7 @@ refer:
 - 简介：  
     - 这篇论文提出了一种在词向量的基础上用一种无监督的方式来表征句向量的思路。
 - details:
-    - ![sentence_embedding](sentence_embedding.png)
+    - ![sentence_embedding](./img/sentence_embedding.png)
 - 优点：  
     - 无监督，不需要标注数据
     - 易实现，计算量小
@@ -82,7 +82,7 @@ refer:
     - 这篇论文提出了一种通过词向量来计算文档之间距离的方式。
 
 - details:
-    - ![wmd](wmd.png)
+    - ![wmd](./img/wmd.png)
 
 - 优点：
     - 可解释性强
