@@ -42,7 +42,7 @@ refer:
 - 原理：  
     - 见 FAQ问答系统中的问句相似度研究 15 到 25 页
 - 优点：
-    -   引入了问句特征（问句类别和句型），从而提高了相似度计算的准确性
+    - 引入了问句特征（问句类别和句型），从而提高了相似度计算的准确性
 - 缺点：
     - 需要对问句类型进行预分类，增加了工作量，而且这个环节也有出错的可能性
 
@@ -71,7 +71,7 @@ refer:
 
 - code:  
     - https://github.com/PrincetonML/SIF
-
+    - https://github.com/HughWen/sif_zh
 - refer:  
     - https://web.stanford.edu/class/cs224n/lectures/cs224n-2017-lecture2-highlight.pdf
     - https://www.youtube.com/watch?v=BCsOrewkmH4
