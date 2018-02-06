@@ -65,10 +65,8 @@ projects:
     - 编辑距离，又称 Levenshtein 距离（也叫做 Edit Distance），是指两个字串之间，由一个转成另一个所需的最少编辑操作次数，如果它们的距离越大，说明它们越是不同。许可的编辑操作包括：将一个字符替换成另一个字符，插入一个字符，删除一个字符。  
     - 将其用于拼写纠错就是在已知的搜索词中寻找编辑距离与用户输入词最小的词。其实现见：http://norvig.com/spell-correct.html  
     以及：http://codepub.cn/2015/07/07/Python-implementation-string-similarity-edit-distance/
-
 - 优点：
     - 纠错速度极快，算法复杂度极低
-
 - 缺点：
     - 对于汉字来说，无法考虑两个汉字在拼音上的相似性。
 
