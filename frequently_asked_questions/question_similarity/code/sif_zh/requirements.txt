@@ -1,0 +1,4 @@
+jieba
+numpy
+gensim
+sklearn
