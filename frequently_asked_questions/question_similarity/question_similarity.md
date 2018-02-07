@@ -71,7 +71,7 @@ refer:
 
 - code:  
     - https://github.com/PrincetonML/SIF
-    - https://github.com/HughWen/sif_zh
+    - https://github.com/HughWen/sif_zh (sif 在 thiqa 这份语料和问题集下的实现，但实际效果并不理想)
 - refer:  
     - https://web.stanford.edu/class/cs224n/lectures/cs224n-2017-lecture2-highlight.pdf
     - https://www.youtube.com/watch?v=BCsOrewkmH4
