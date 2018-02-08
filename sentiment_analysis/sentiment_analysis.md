@@ -3,11 +3,21 @@
 ## 该领域国内外研究动态
 
 ### 重要会议 & 竞赛
+- 国内
+- 国外
+    - SemEval
+        - [SemEval-2018](http://alt.qcri.org/semeval2018/)
+        - [SemEval-2017](http://alt.qcri.org/semeval2017/)
+        - [SemEval-2016](http://alt.qcri.org/semeval2016/)
+        - [SemEval-2015](http://alt.qcri.org/semeval2015/)
+        - [SemEval-2014](http://alt.qcri.org/semeval2014/)
 
 ### 厉害的研究机构和成员
+- 
 ### 重要的文献
 #### 国内
 #### 国外
+- [Deep Learning for Sentiment Analysis: A Survey](https://arxiv.org/pdf/1801.07883.pdf) (很新很全，强烈推荐详细阅读)
 ### 研究热点
 ### 研究现状和具体效果
 ### 公开语料
