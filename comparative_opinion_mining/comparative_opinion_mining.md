@@ -5,7 +5,7 @@
 以下主要介绍比较句的相关研究以及我们之前所做的实验：
 - 比较句观点挖掘介绍
 - 比较句识别（我们的工作）
-- 比较主题识别（我们的工作）
+- 比较主体识别（我们的工作）
 
 refer:
 - [面向在线评论的比较观点挖掘研究综述](https://www.researchgate.net/publication/317132492_mianxiangzaixianpinglundebijiaoguandianwajueyanjiuzongshu)
@@ -16,5 +16,11 @@ refer:
 
 
 ## 比较句识别
-在比较句识别上，我们使用了和[文灵](https://github.com/yimian/wenling)一样的 LSTM + Word2Vec 模型，将其改为二分类，在 COAE2013 的电子商品和汽车的 2000 条语料上，可以得到 0.96 左右的准确率和召回率。结果见
-[result](./data/result/5_fold_result.txt)
+- 原理：在比较句识别上，我们使用了和[文灵](https://github.com/yimian/wenling)一样的 LSTM + Word2Vec 模型，将其改为二分类。
+- 语料：COAE2013 的电子商品和汽车的 2000 条语料上（1000 条是比较句，1000 条不是）。
+- 结果：可以得到 0.96 左右的准确率和召回率。具体见：[result](./data/result/5_fold_result.txt)。
+- 优点：准确率和召回率都较高，且无需特征工程，可快速得到模型。
+- 缺点：我们将从 COAE2013 训练出来的模型，用来预测电商评论，发现泛化能力不足。（主要原因是电商评论中有许多语句形式与训练语料差异过大，如“好评”，“差评”）
+
+## 比较句主体识别
+- 原理：
