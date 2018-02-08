@@ -16,3 +16,5 @@ refer:
 
 
 ## 比较句识别
+在比较句识别上，我们使用了和[文灵](https://github.com/yimian/wenling)一样的 LSTM + Word2Vec 模型，将其改为二分类，在 COAE2013 的电子商品和汽车的 2000 条语料上，可以得到 0.96 左右的准确率和召回率。结果见
+[result](./data/result/5_fold_result.txt)
