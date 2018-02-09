@@ -11,13 +11,18 @@
         - [SemEval-2016](http://alt.qcri.org/semeval2016/)
         - [SemEval-2015](http://alt.qcri.org/semeval2015/)
         - [SemEval-2014](http://alt.qcri.org/semeval2014/)
-
+    - NLP 相关会议
+        -
 ### 厉害的研究机构和成员
-- 
+- 国内
+    - CAS
+        - [Bing Liu](https://www.cs.uic.edu/~liub/)
+- 国外
+    - [Kang Liu](http://www.nlpr.ia.ac.cn/cip/~liukang/index.html)
 ### 重要的文献
 #### 国内
 #### 国外
-- [Deep Learning for Sentiment Analysis: A Survey](https://arxiv.org/pdf/1801.07883.pdf) (很新很全，强烈推荐详细阅读)
+- [Deep Learning for Sentiment Analysis: A Survey](https://arxiv.org/pdf/1801.07883.pdf) (很新很全，强烈建议详细阅读)
 ### 研究热点
 ### 研究现状和具体效果
 ### 公开语料
